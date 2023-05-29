@@ -19,7 +19,7 @@ from langchain.agents.agent_toolkits import (
 
 # Set APIkey for OpenAI Service
 # Can sub this out for other LLM providers
-os.environ['OPENAI_API_KEY'] = 'yourapikeyhere'
+os.environ['OPENAI_API_KEY'] = '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'
 
 # Create instance of OpenAI LLM
 llm = OpenAI(temperature=0.1, verbose=True)
